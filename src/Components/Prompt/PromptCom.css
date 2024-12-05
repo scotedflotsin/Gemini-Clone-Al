@@ -1,0 +1,41 @@
+.custom-bg{
+font-size: 22px;
+color: #C4C7C5;
+width: 35px;
+height: 35px;
+border-radius: 100px;
+padding: 6px;
+}
+.custom-bg:hover, .custom-google:hover, .custom-menu:hover{
+    background: rgba(206,206,206,0.07);
+}
+.custom-google{
+    border-radius: 100px;
+    width: 34px;
+    height: 34px;
+}
+
+.custom-menu{
+font-size: 20px;
+color: #C4C7C5;
+width: 35px;
+height: 32px;
+border-radius: 100px;
+padding: 6px;
+border-radius: 100px;
+padding: 6px;
+}
+.response-container{
+    
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+.response-container::-webkit-scrollbar {
+    display: none;
+  }
+  .response-component{
+    max-width: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }

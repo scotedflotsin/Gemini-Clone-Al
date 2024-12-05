@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #131314;
+}
+.icon {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  color: white;
+  width: 46px;
+  padding: 8px;
+  height: auto;
+  border-radius: 100px;
+}
+.icon:hover{
+    background-color: #2f2f3093;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.trigger:hover .target {
+  visibility: visible;
+}
+
+.target:hover {
+  border-radius: 100%;
+  background-color: rgba(240, 255, 255, 0.151);
+}
+
+/* Navbar styeling */
+
+.custom-width {
+  width: calc(100vw - 350px);
+}
+.custom-width2 {
+    width: calc(100vw - 77px); 
+
+}
+
+.search-icon {
+  font-size: 22px;
+  color: white;
+  width: 40px;
+  padding: 8px;
+  height: auto;
+  border-radius: 100px;
+}
+.search-icon:hover {
+  background-color: #2f2f3093;
+}
+
+/* Welcome gredient text */
+
+
+.welcome-message{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  background: linear-gradient(#5281EC, #D96570);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+}
+.sub-welcome-message{
+  color: #C4C7C5;
+font-size: 32px;
+font-weight: 600;
+text-align: center;
+}
+.custom-height{
+  height: calc(100vh - 220px);
+  margin-top: 70px;
+  padding-top: 100px;
+}
+.send-transition{
+ 
+}
+
+.running{
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate{
+  0%{
+transform: rotate(0deg);
+  }100%{
+transform: rotate(360deg);
+  }
+}
+
+.not-running{
+  
+}
